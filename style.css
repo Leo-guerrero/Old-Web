@@ -1,0 +1,113 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(dogica.ttf);
+  }
+
+body{
+    background-image: url("backround.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-position:center;
+    background-size: cover;
+}
+
+#topbox
+{
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+
+    text-align: center;
+    color: plum;
+    font-family: myFirstFont;
+    word-spacing: 100px;
+    font-weight: normal;
+
+
+    
+    width: 1360px;
+    height: 70px;
+    
+
+
+    
+    margin-left: 265px;
+    
+
+
+}
+
+#backblurr{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+
+    
+
+    width: 2100px;
+    height: 80px;
+    background: rgba(17, 15, 16, 0.7);
+    filter: blur(1.5rem);
+
+    border: 3px solid;
+    border-color: rgb(167, 138, 167);
+    
+
+}
+
+a:any-link{
+    text-decoration: none;
+    color: plum;
+    
+}
+a:hover{
+    color: rgb(29, 180, 148);
+}
+
+a:active{
+    color:rgb(38, 13, 128);
+}
+
+
+#maintextbox{
+    width: 1350px;
+    height: 2000px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    
+    font-family: myFirstFont;
+    line-height: 2.5;
+    
+    color: plum;
+
+    padding: 20px;
+
+    border: 1px solid;
+    margin-top: 180px;
+    margin-left: 250px;
+
+    position: relative;
+
+}
+
+h2{
+    font-weight:normal;
+    font-family: myFirstFont;
+}
+
+img{
+    height: 320px;
+    border: 1px solid;
+    border-color: plum;
+
+   border-radius: 25px;
+   position: absolute;
+   top: 290px;
+   left: 1000px;
+}
+
+
+
+
+
